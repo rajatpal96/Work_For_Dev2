@@ -1,0 +1,307 @@
+
+
+
+/*.page-content
+{
+    background-color: #F1F2F7;
+}
+*/
+
+body::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+     background-color: gray;
+    border: 3px solid white;
+}
+
+
+a:hover{text-decoration-line: none!important;}
+
+
+
+.notifaction_area_col{ border-bottom: 5px solid black; box-shadow: 3px 3px 50px white;  border-radius: 10px; }
+.notifaction_area_col:hover{ 
+ 
+ box-shadow: 6px 6px 6px #111;
+  }
+.notifaction_area_icon{  box-shadow: 1px 1px 2px #111; }
+ .notifaction_area .well{ 
+margin-top: -10px!important;
+padding-top: 0px!important;
+padding-bottom: 0px!important;
+color: #000;
+background-color: white;
+ }
+
+.circle-tile-footer:hover{ color: red!important; }
+/**/
+
+.circle-tile {
+    margin-bottom: 15px;
+    text-align: center;
+    
+
+}
+.circle-tile .fa{color: white!important; }
+
+.circle-tile-heading {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto -40px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 100%;
+    color: #fff;
+    transition: all ease-in-out .3s;
+    text-align: center;
+}
+
+.circle-tile-heading .fa {
+    line-height: 80px;
+}
+
+.circle-tile-content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.circle-tile-number {
+    padding: 5px 0 10px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.circle-tile-description {
+    text-transform: uppercase;
+}
+
+.circle-tile-footer {
+    display: block;
+    padding: 5px;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.1);
+    transition: all ease-in-out .3s;
+}
+
+.circle-tile-footer:hover {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.2);
+}
+
+.circle-tile-heading.dark-blue:hover {
+    background-color: #2e4154;
+}
+
+.circle-tile-heading.green:hover {
+    background-color: #138f77;
+}
+
+.circle-tile-heading.orange:hover {
+    background-color: #da8c10;
+}
+
+.circle-tile-heading.blue:hover {
+    background-color: #2473a6;
+}
+
+.circle-tile-heading.red:hover {
+    background-color: #cf4435;
+}
+
+.circle-tile-heading.purple:hover {
+    background-color: #7f3d9b;
+}
+.circle-tile-heading.dark-blue {
+    background-color: #34495e;
+}
+
+.dark-blue {
+    background-color: #34495e;
+}
+
+
+
+
+
+
+/*col background color */
+
+.dark-blue {
+    background-color: #34495e;
+}
+
+.green {
+    background-color: #16a085;
+}
+
+.blue {
+    background-color: #2980b9;
+}
+
+.orange {
+    background-color: #f39c12;
+}
+
+.red {
+    background-color: #e74c3c;
+}
+
+.purple {
+    background-color: #8e44ad;
+}
+
+.dark-gray {
+    background-color: #7f8c8d;
+}
+
+.gray {
+    background-color: #95a5a6;
+}
+
+.light-gray {
+    background-color: #bdc3c7;
+}
+
+.yellow {
+    background-color: #f1c40f;
+}
+
+/* -- Text Color Helper Classes */
+
+ .text-dark-blue {
+    color: #34495e;
+}
+
+.text-green {
+    color: #16a085;
+border-radius: 10px;
+
+}
+
+.text-blue {
+    color: #2980b9;
+}
+
+.text-orange {
+    color: #f39c12;
+}
+
+.text-red {
+    color: #e74c3c;
+}
+
+.text-purple {
+    color: #8e44ad;
+}
+
+.text-faded {
+    color: rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.no_top_border{border-top: none!important;}
+.top_border{border-top: 2px solid #348EB9!important;}
+.left_side_border{border-left: 2px solid #348EB9;}
+
+
+/*for panerl header style*/
+.panel-header
+{
+    height: 44px;
+}
+.panel-header .panel-title
+{
+    float: left;
+}
+.panel-header .panel-button
+{
+    float: right;
+}
+
+
+.bg-default
+{
+    background-color: #F5F5F5!important;
+}
+
+
+
+
+
+
+/*panel header design*/
+
+.panel-heading
+{
+    height: 40px;
+}
+ .panel-title
+{
+    float: left;
+}
+ .panel-button
+{
+    float: right;
+}
+
+
+/*row collapse line*/
+
+.row_collapse_line
+{
+    height: 18px;
+    text-align: left;
+    margin-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 10px;
+    
+}
+.row_collapse_line a i
+{
+    
+    border-radius: 50%;
+    padding: 0.5px;
+    margin-top: -22px;
+    background-color: white;
+    color:#348EB9;
+    float: right;
+}
+
+
+
+.panel_body_tabel{padding: 0px!important;}
+.panel_body_tabel table
+{
+    margin-bottom: 0px!important;
+}

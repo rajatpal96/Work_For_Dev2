@@ -1,0 +1,84 @@
+@CHARSET "ISO-8859-1";
+
+/*account info*/
+.acountinfo  .row
+{
+    padding: 0px!important;
+}
+.acountinfo .panel-body
+{
+    padding: 0px!important; margin: 0px!important; 
+}
+
+.panel-body .income_loss_table_div
+{
+    margin-left: -13px!important; margin-bottom:-20px!important;
+}
+.panel-body.income_loss_chart_div
+{ 
+    margin-top: 5px; 
+    margin-bottom: -20px!important;
+    margin-left: 15px;
+}
+
+.income_loss_table_div .table_div table 
+{
+    max-height: 200px!important; 
+    overflow-y: scroll;
+}
+
+
+.income_loss_table_div .table_div table tbody tr td p
+{
+    margin-bottom: 0px!important;
+}
+
+
+.income_loss_chart_div
+{
+ padding-left: 30px;
+}
+
+#grafico
+{
+    padding-top: 10px;
+position:relative;
+height:390px;
+border-left:2px solid #000000;
+border-bottom: 2px solid #000000;
+width:100%;
+}
+.riga{
+position:absolute;
+left:0;
+height: 1px;
+background-color:gray;
+width: 100%;
+}
+.riga div{
+float:left;
+margin: -8px 0 0 -40px;
+
+}
+.canc{
+clear:both;
+}
+.column{
+position:absolute;
+width: 5%;
+bottom: 0;
+/*background-color: #2A91D8!important;*/
+background-color: #7CB5EC!important;
+
+margin-left:5%;
+/*border: 2px solid #4F99C6;*/
+border-bottom: none!important;
+margin-top: 20px!important;
+padding-top: 19px;
+color: white;
+text-align: center!important;
+}
+.column div{
+margin-top:-20px;
+height:20px;
+}

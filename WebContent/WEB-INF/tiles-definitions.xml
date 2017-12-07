@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions> 
+
+
+ 	<!--  developer pages -->
+ 
+ 	<definition name="loginTileDef" template="/WEB-INF/views/login.jsp">   
+   </definition>
+   
+   <definition name="successDef" template="/WEB-INF/views/success.jsp">   
+   </definition>
+   
+   <!-- Home Page -->
+   <definition name="dev-base" template="/WEB-INF/views/developer/home.jsp">  
+	       <put-attribute name="title" value="- SKY | Developer -" />  
+	       <put-attribute name="commonfile" value="/WEB-INF/views/developer/common/commonfile.jsp" />  
+	       <put-attribute name="header" value="/WEB-INF/views/developer/common/header.jsp" />
+	       <put-attribute name="navbar_top" value="/WEB-INF/views/developer/common/navbar_top.jsp" />    
+	       <put-attribute name="navbar" value="/WEB-INF/views/developer/common/navbar.jsp" />  
+	       <put-attribute name="sidebar" value="/WEB-INF/views/developer/common/sidebar.jsp" />       
+	       <put-attribute name="footer" value="/WEB-INF/views/developer/common/footer.jsp" /> 
+	       <put-attribute name="fullpage" value="/WEB-INF/views/developer/dashbord.jsp" />       
+	       <put-attribute name="model" value="/WEB-INF/views/model.jsp" /> 
+	       <put-attribute name="No_js" value="/WEB-INF/views/noJavaScript.jsp" />    
+   </definition>
+   
+   
+   <definition name="dev_nortifaction" extends="dev-base">  
+       <put-attribute name="title" value="-- nortifaction --" />
+       <put-attribute name="fullpage" value="/WEB-INF/views/developer/nortifaction.jsp" />    
+   </definition> 
+   
+   <definition name="dev_addOrgUser" extends="dev-base">  
+       <put-attribute name="title" value="-- Developer | Add user --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/developer/addOrgUser.jsp" />    
+   </definition> 
+   
+   <definition name="dev_about" extends="dev-base">  
+       <put-attribute name="title" value="-- about --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/developer/about.jsp" />    
+   </definition> 
+
+	<!-- super admin pages -->
+
+	 <definition name="sAdmin-base" template="/WEB-INF/views/SuperAdmin/home.jsp">  
+       <put-attribute name="title" value="- SKY | Super Admin -" />  
+       <put-attribute name="commonfile" value="/WEB-INF/views/SuperAdmin/common/commonfile.jsp" />  
+       <put-attribute name="header" value="/WEB-INF/views/SuperAdmin/common/header.jsp"/>
+       <put-attribute name="navbar_top" value="/WEB-INF/views/SuperAdmin/common/navbar_top.jsp"/>    
+       <put-attribute name="navbar" value="/WEB-INF/views/SuperAdmin/common/navbar.jsp"/>  
+       <put-attribute name="sidebar" value="/WEB-INF/views/SuperAdmin/common/sidebar.jsp"/>       
+       <put-attribute name="footer" value="/WEB-INF/views/SuperAdmin/common/footer.jsp" /> 
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/dashbord.jsp" />       
+       <put-attribute name="model" value="/WEB-INF/views/model.jsp" /> 
+       <put-attribute name="No_js" value="/WEB-INF/views/noJavaScript.jsp" />    
+   </definition>
+   
+   <definition name="sAdmin_nortifaction" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin --" />
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/nortifaction.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_updateOrg" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | Update Org --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/updateOrg.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_log" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | Log Details --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/log.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_systemSetting" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/systemSettingDash.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_AcedamicPart" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/AcedamicPart.jsp" />    
+   </definition> 
+   
+   
+   
+   
+   <definition name="sAdmin_sessionDash" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/session/sessionDash.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_sessionAdd" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/session/addSession.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_sessionView" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/session/viewSession.jsp" />    
+   </definition> 
+   
+   
+   
+   
+   <definition name="sAdmin_classDash" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/class/classDash.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_classAdd" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/class/addClass.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_classView" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/class/viewClass.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_classManage" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/class/manageClass.jsp" />    
+   </definition> 
+   
+   
+   
+   
+   
+   <definition name="sAdmin_smsDash" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/sms/smsDash.jsp" />    
+   </definition>
+    
+   
+   <definition name="sAdmin_sectionDash" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/section/sectionDash.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_classAdd" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/section/addSection.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_classView" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/section/viewSection.jsp" />    
+   </definition> 
+   
+   <definition name="sAdmin_classManage" extends="sAdmin-base">  
+       <put-attribute name="title" value="-- SuperAdmin | System Setting --" />   
+       <put-attribute name="fullpage" value="/WEB-INF/views/SuperAdmin/section/manageSection.jsp" />    
+   </definition> 
+
+
+</tiles-definitions>
